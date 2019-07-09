@@ -1,0 +1,27 @@
+.row {
+  margin-top: 3rem;
+}
+
+.icons {
+  padding: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  &__items {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.main-card {
+  border-radius: 1.6rem;
+  & h1 {
+    font-size: 3.6rem;
+  }
+  & p {
+    font-size: 1.6rem;
+  }
+}
+
+.chip-wrapper {
+  padding-bottom: 3rem;
+}

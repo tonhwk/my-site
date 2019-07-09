@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.row {
+  margin-top: 3rem; }
+
+.icons {
+  padding: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+  .icons__items {
+    text-decoration: none;
+    color: white; }
+
+.main-card {
+  border-radius: 1.6rem; }
+  .main-card h1 {
+    font-size: 3.6rem; }
+  .main-card p {
+    font-size: 1.6rem; }
+
+.chip-wrapper {
+  padding-bottom: 3rem; }

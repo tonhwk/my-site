@@ -1,0 +1,43 @@
+// COLORS
+$orange-primary: #ff9500;
+$blue-primary: #13161f;
+$blue-secondary: #2c2f36;
+$third-blue: #090c14;
+
+$first-grey: #f2f2f2;
+$second-grey: #e6e6e6;
+$third-grey: #cccccc;
+$fourth-grey: #b3b3b3;
+$fifth-grey: #999999;
+$sixth-grey: #808080;
+$seventh-grey: #666666;
+$eight-grey: #4d4d4d;
+$ninth-grey: #333333;
+
+// FONTS
+$ubuntu-font: "Ubuntu", sans-serif;
+$titillium-font: "Titillium Web", sans-serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-small: 37.5em;
+
+// NORMALIZING CSS
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> rem = 10px
+}
+
+body {
+  font-family: $titillium-font;
+  font-weight: 300;
+  line-height: 1.6;
+}
