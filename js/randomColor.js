@@ -25,7 +25,7 @@ document.getElementById("randomColors").className = `col s6 ${
 } center-align darken-4 z-depth-5 main-card`
 
 // SAME RANDOM TAG COLOR
-for (var i = 0; i < 4; i++) {
+for (var i = 0; i < 8; i++) {
   // Remember to update count to be same as tags in html document.
   document.getElementById(`Tag${i}`).className = `chip ${
     colors[randomTag]
